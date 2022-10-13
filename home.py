@@ -16,7 +16,7 @@ st.title("Iris-Andrew Anniversaries")
 date_we_kissed = date(2022, 9, 14)
 time_we_kissed = time(2, 00)
 dt_we_kissed = dt.datetime.combine(date_we_kissed, time_we_kissed)
-dt_im_bf = dt.datetime.combine(date(2022, 10, 13), time(7, 30))
+dt_im_bf = dt.datetime.combine(date(2022, 10, 13), time(7, 00))
 dt_now = datetime.now()
 
 st.header(f"Date We Kissed 💏: ")
