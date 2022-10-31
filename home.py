@@ -17,6 +17,7 @@ date_we_kissed = date(2022, 9, 14)
 time_we_kissed = time(2, 00)
 dt_we_kissed = dt.datetime.combine(date_we_kissed, time_we_kissed)
 dt_im_bf = dt.datetime.combine(date(2022, 10, 13), time(7, 00))
+dt_she_gf = dt.datetime.combine(date(2022, 10, 22), time(0, 00))
 dt_now = datetime.now()
 
 st.header(f"Date We Kissed 💏: ")
@@ -30,4 +31,4 @@ st.header(f"Days since Andrew is boyfriend 💝: ")
 st.subheader((dt_now - dt_im_bf).days)
 
 st.header(f"Days since Iris is girlfriend 💝: ")
-st.subheader("Error 404: Iris is not Andrew's girlfriend yet!")
+st.subheader((dt_now - dt_she_gf). days)
